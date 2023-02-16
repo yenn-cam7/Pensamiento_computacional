@@ -40,13 +40,22 @@
     
     
 algoritmo para calcular el area de un triangulo
- 1.- inicio- calcular area de un triangulo
-  2.-asignar- base altura area
-  3.- mostrar (ingresa la base) 
-  4.- asignar a base
-  5.- mostrar (ingrsa la altura)
-  6.- asignar a altura
-  7.-area = (base * altura) / 2
-  8.-mostrar (area)
-  9.-fin
+
+1.- inicio- calcular area de un triangulo
+ 
+ 2.-asignar- base altura area
+ 
+ 3.- mostrar (ingresa la base) 
+
+4.- asignar a base
+
+5.- mostrar (ingrsa la altura)
+
+6.- asignar a altura
+
+7.-area = (base * altura) / 2
+
+8.-mostrar (area)
+
+9.-fin
   
