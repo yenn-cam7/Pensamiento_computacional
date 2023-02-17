@@ -1,6 +1,6 @@
 lenguaje universal
 
-ywl
+ywl:
 
 git hub: controlador de versionbes de codigo
 
@@ -19,3 +19,5 @@ camel case: mayuscula
 pascal case: mayuscula despues de la separacion
 
 commit: se genera una vercion
+
+
