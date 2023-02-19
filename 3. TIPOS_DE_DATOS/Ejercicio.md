@@ -3,15 +3,15 @@ Vamos a identificar los siguientes tipos de datos
 
 NUMEROS ENTEROS : 
 
-      TU RESPUESTA AQUI
+1,2,3,4,5,6...etc
 
 NUMEROS DECIMALES: 
 
-      TU RESPUESTA AQUI
+1.0. 6.5 2.12 etc...
+
 
 CARACTER : 
 
-      TU RESPUESTA AQUI
 
 CADENA DE CARACTERES : 
 
