@@ -12,8 +12,9 @@ NUMEROS DECIMALES:
 
 CARACTER : 
 
+a, @, #, 1, etc.
+
 
 CADENA DE CARACTERES : 
 
-      TU RESPUESTA AQUI
-    
+ (‘) o doble comillas (“)   
