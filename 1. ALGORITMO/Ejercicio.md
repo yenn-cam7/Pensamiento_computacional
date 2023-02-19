@@ -29,7 +29,14 @@
 
 ### DESARROLLA UN ALGORITMO QUE CALCULE LA EDAD DE UNA PERSONA CON BASE A LA OBTENCION DE SU FECHA DE NACIMIENTO.
 
-    TU RESPUESTA AQUI
+1.-inicio-edad de una persona
+2.-declarar- (año de nacimiento, año actual,edad)
+3.-asignar- (año actual 20023)
+4.-mostrar- (ingresa tu año de naciemiento)
+5.-asignar- (año de nacimiento)
+6.-edad= año actual - año de nacimiento 
+7.-mostrar (edad)
+8.-fin
 
 
 
