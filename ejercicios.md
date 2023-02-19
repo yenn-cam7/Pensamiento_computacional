@@ -21,3 +21,13 @@
       Escribir "el promedio de ",nombre_del_alumno," es de ",promedio
 
     FinAlgoritmo
+    
+    poblacion_mundiual<- 0
+	tiempo_en_que_se_tarda_en_leer<- 0
+	tiempo_que_tardaria<- 0
+	Escribir "poblacion_mundiual"
+	Leer poblacion_mundial
+	Escribir "tiempo_en_que_se_tarda_en_leer"
+	Leer tiempo_en_que_se_tarda_en_leer
+	tiempo_en_que_se_tarda_en_leer<-(poblacion_mundial/tiempo_en_que_se_tarda_en_leer)/60/24
+	Escribir "el tiempo_que_tardaria la persona es de ", tiempo_en_que_se_tarda_en_leer , "dias"
