@@ -31,3 +31,27 @@
 	Leer tiempo_en_que_se_tarda_en_leer
 	tiempo_en_que_se_tarda_en_leer<-(poblacion_mundial/tiempo_en_que_se_tarda_en_leer)/60/24
 	Escribir "el tiempo_que_tardaria la persona es de ", tiempo_en_que_se_tarda_en_leer , "dias"
+	
+	total_personas <- 80000000
+		tiempo_por_persona <- 1
+		
+		tiempo_total_segundos <- total_personas * tiempo_por_persona
+		
+		segundos_por_año <- 60 * 60 * 24 * 365
+		segundos_por_mes <- 60 * 60 * 24 * 30
+		segundos_por_dia <- 60 * 60 * 24
+		
+		años <- tiempo_total_segundos / segundos_por_año
+		meses <- (tiempo_total_segundos % segundos_por_año) / segundos_por_mes
+		dias <- ((tiempo_total_segundos % segundos_por_año) % segundos_por_mes) / segundos_por_dia
+		tiempo_total_segundos<-num_total MOD segundos_por_año
+		mes<-TRUNC(num_total/segundos_meses)
+		num_total<-num_total MOD segundos_meses
+		dias<-TRUNC(num_total/segundos_dias)
+		num_total<-num_total MOD segundos_dias
+
+		
+		Escribir "Tardarías aproximadamente ", años, " años, ", meses, " meses y ", dias, " días en leer los nombres de todas las personas en el mundo."
+		
+
+FinAlgoritmo
