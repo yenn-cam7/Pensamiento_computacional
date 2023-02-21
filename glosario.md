@@ -1,6 +1,6 @@
 lenguaje universal
 
-ywl:el lenguaje de marcado extraible, permite definir y almacenar datos de forma compartible
+xwl:el lenguaje de marcado extraible, permite definir y almacenar datos de forma compartible
 
 git hub: controlador de versionbes de codigo
 
