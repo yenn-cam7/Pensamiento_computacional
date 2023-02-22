@@ -92,6 +92,6 @@ Algoritmo sin_titulo
 	Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual	
 	
 FinAlgoritmo
-
+	
 
 
