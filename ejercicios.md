@@ -55,3 +55,6 @@
 		
 
 FinAlgoritmo
+realiza un algoritmo para pseint que calcule el tiempo que tardare en leer todos los nombres del mundo en años meses y dias utilizando divicion de piso y residuo
+
+
