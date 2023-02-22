@@ -20,7 +20,7 @@ pascal case: mayuscula despues de la separacion
 
 commit: se genera una version
 
-lenguaje de alto nivel:su sintaxis es generalemnte en ingles
+lenguaje de alto nivel:su sintaxis es generalemnte en ingles LENGUAJE DIRECTAMENTE CON LA PERSONA
 
 lenguaje de bajo nivel: sintaxis compleja 
 
