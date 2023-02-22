@@ -54,25 +54,44 @@
 		Escribir "Tardarías aproximadamente ", años, " años, ", meses, " meses y ", dias, " días en leer los nombres de todas las personas en el mundo."
 		
 
-FinAlgoritmo
-realiza un algoritmo para pseint que calcule el tiempo que tardare en leer todos los nombres del mundo en años meses y dias utilizando divicion de piso y residuo
-// programa que calcula el total a pagar y la mensualidad de un prestamo con tasa de interes del 8 MOD 
-	// inicio
-	Definir prestamo Como Real
-	Definir mensualidades Como Entero
-	Definir total_a_pagar Como Real
-	Definir interes Como Real
-	Definir pago_mensual Como Real
-	// asignar
-	Escribir 'ingresa cantidad de prestamo'
+	FinAlgoritmo
+	realiza un algoritmo para pseint que calcule el tiempo que tardare en leer todos los nombres del mundo en años meses y dias utilizando divicion de piso y residuo
+	// programa que calcula el total a pagar y la mensualidad de un prestamo con tasa de interes del 8 MOD 
+		// inicio
+		Definir prestamo Como Real
+		Definir mensualidades Como Entero
+		Definir total_a_pagar Como Real
+		Definir interes Como Real
+		Definir pago_mensual Como Real
+		// asignar
+		Escribir 'ingresa cantidad de prestamo'
+		Leer prestamo
+		Escribir 'ingresar cantidad de mesualidades'
+		Leer mensualidades
+		interes <- .08
+		total <- (prestamo*interes)+prestamo
+		pago_mensual <- total/mensualidades
+		// salidad de datos
+		Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual
+	FinAlgoritmo
+	
+	
+# ejercicio de interes compuesto
+Algoritmo sin_titulo
+	definir total Como Entero
+	definir pretamo como real
+	definir mensualidades Como Real
+	definir interes como real
+	definir pago_mensual Como Real
+	Escribir "ingresa cantidad de prestamo"
 	Leer prestamo
-	Escribir 'ingresar cantidad de mesualidades'
-	Leer mensualidades
-	interes <- .08
-	total <- (prestamo*interes)+prestamo
-	pago_mensual <- total/mensualidades
-	// salidad de datos
-	Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual
+	Escribir "ingresar mesualidades"
+	Leer mesualidades
+	interes<-.08
+	prestamo<-(1+mensualidades)<-total
+	Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual	
+	
 FinAlgoritmo
+
 
 
