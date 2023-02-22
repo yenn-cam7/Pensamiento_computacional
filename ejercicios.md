@@ -56,5 +56,23 @@
 
 FinAlgoritmo
 realiza un algoritmo para pseint que calcule el tiempo que tardare en leer todos los nombres del mundo en años meses y dias utilizando divicion de piso y residuo
+// programa que calcula el total a pagar y la mensualidad de un prestamo con tasa de interes del 8 MOD 
+	// inicio
+	Definir prestamo Como Real
+	Definir mensualidades Como Entero
+	Definir total_a_pagar Como Real
+	Definir interes Como Real
+	Definir pago_mensual Como Real
+	// asignar
+	Escribir 'ingresa cantidad de prestamo'
+	Leer prestamo
+	Escribir 'ingresar cantidad de mesualidades'
+	Leer mensualidades
+	interes <- .08
+	total <- (prestamo*interes)+prestamo
+	pago_mensual <- total/mensualidades
+	// salidad de datos
+	Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual
+FinAlgoritmo
 
 
