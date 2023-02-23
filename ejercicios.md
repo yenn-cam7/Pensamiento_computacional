@@ -92,6 +92,67 @@ Algoritmo sin_titulo
 	Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual	
 	
 FinAlgoritmo
+
+	# condicionales
+	realiza ejercicio de un programa que calcula el promedio, y el estatus (aprobado y reprobado) de un alumno de alguno de los siguientes tres grupos
+	grupo 1 
+	-español
+	-matematicas
+	-ciencias
+	grupo 2 
+	-español
+	-matematicas
+	-ciencias
+	-ingles
+	grupo 3
+	-español
+	-matrematicas
+	-ciencias
+	-ingles
+	-musica
+	ingresa el nombre del alumno
+	calificaciones para cada materia
+	operacion
+	resultado
 	
+	# ejercicio con condicionales
+	definir nombre_del_alumno Como Caracter
+	definir español Como Real
+	definir matematicas Como Real
+	definir ciencias Como Real
+	definir promedio Como Real
+	
+	Escribir "ingresa el nombre del alumno"
+	leer nombre_del_alumno
+	Escribir "calificacion español"
+	leer español
+	
+	
+	Si español>10 Entonces
+		Escribir "calificacion invalida"
+	
+	Fin Si
+	
+	escribir "calificacion matematicas"
+	leer matematicas
+	escribir "calificaciom ciencias"
+    leer ciencias
+	
+	promedio= (español+matematicas+ciencias)/3
+	
+	Escribir " el promedio del alumno ",nombre_del_alumno, " es de ", promedio
+	
+	Si promedio >=6 Entonces
+		Escribir "aprobado"
+	SiNo
+		Escribir "reporbado"
+		
+	Fin Si
+	
+	
+FinAlgoritmo
+
+
+
 
 
