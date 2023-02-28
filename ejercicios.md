@@ -55,7 +55,7 @@
 		
 
 	FinAlgoritmo
-	realiza un algoritmo para pseint que calcule el tiempo que tardare en leer todos los nombres del mundo en años meses y dias utilizando divicion de piso y residuo
+		realiza un algoritmo para pseint que calcule el tiempo que tardare en leer todos los nombres del mundo en años meses y dias utilizando divicion de piso y residuo
 	// programa que calcula el total a pagar y la mensualidad de un prestamo con tasa de interes del 8 MOD 
 		// inicio
 		Definir prestamo Como Real
@@ -76,8 +76,8 @@
 	FinAlgoritmo
 	
 	
-# ejercicio de interes compuesto
-Algoritmo sin_titulo
+	# ejercicio de interes compuesto
+	Algoritmo sin_titulo
 	definir total Como Entero
 	definir pretamo como real
 	definir mensualidades Como Real
@@ -91,7 +91,7 @@ Algoritmo sin_titulo
 	prestamo<-(1+mensualidades)<-total
 	Escribir 'el pago total por un prestamo de ',prestamo,' es de ',total,' a ',mensualidades,' mensualidaes de:',pago_mensual	
 	
-FinAlgoritmo
+	FinAlgoritmo
 
 	# condicionales
 	realiza ejercicio de un programa que calcula el promedio, y el estatus (aprobado y reprobado) de un alumno de alguno de los siguientes tres grupos
@@ -153,6 +153,39 @@ FinAlgoritmo
 FinAlgoritmo
 
 
-
-
+	# calculadora
+		Definir num1, num2, resultado como Real
+		Definir operacion como Caracter
+		
+		Escribir "Bienvenido soy una calculadora"
+		Escribir "Ingrese el primer número: "
+		Leer num1
+		Escribir "Ingrese el segundo número: "
+		Leer num2
+		Escribir "Ingrese la operación que desea realizar (+, -, *, /): "
+		Leer operacion
+		
+		Si operacion = "+" Entonces
+			resultado <- num1 + num2
+			Escribir "El resultado de la suma es: ", resultado
+		FinSi
+		
+		Si operacion = "-" Entonces
+			resultado <- num1 - num2
+			Escribir "El resultado de la resta es: ", resultado
+		FinSi
+		
+		Si operacion = "*" Entonces
+			resultado <- num1 * num2
+			Escribir "El resultado de la multiplicación es: ", resultado
+		FinSi
+		
+		Si operacion = "/" Entonces
+			Si num2 <> 0 Entonces
+				resultado <- num1 / num2
+				Escribir "El resultado de la división es: ", resultado
+			Sino
+				Escribir "No se puede dividir entre cero"
+			FinSi
+		FinSi
 
