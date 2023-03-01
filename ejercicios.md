@@ -188,4 +188,31 @@ FinAlgoritmo
 				Escribir "No se puede dividir entre cero"
 			FinSi
 		FinSi
+		
+	#promedios y ejercicios con for
+		definir nombre Como Caracter
+		definir calificacion Como Real
+		definir promedio como real
+		definir veces como entero
+		definir suma Como Real
+		definir numero_de_alumnos como entero
+		Escribir "¿cuantos alumnos son?"
+		leer numero_de_alumnos
+		Para j<-1 Hasta numero_de_alumnos Con Paso 1  Hacer
+		Escribir "ingresa nombre del alumno", j," ",nombre
+		leer nombre
+		Escribir "cuantas calificaciones tiene ", nombre
+		leer veces
+		Para i<-1 Hasta veces Con Paso 1  Hacer
+			Escribir "ingresa calificacion ", i
+			Leer calificacion
+			suma<- suma + calificacion
+			promedio<- suma/veces
+
+		Fin Para
+		Escribir "el promedio de ", nombre, " es de ", promedio
+		calificacion<-0
+		suma<-0
+		promedio<-0
+	Fin Para
 
