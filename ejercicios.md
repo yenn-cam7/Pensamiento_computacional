@@ -190,6 +190,30 @@ FinAlgoritmo
 		FinSi
 		
 	#promedios y ejercicios con for
+	 EJERCICIO 1
+	 Para i<-0 Hasta 100 Con Paso 2  Hacer
+		Escribir i
+	Fin Para
+	  EJERCICIO 2
+	  definir num Como Entero
+	definir resultado Como Entero
+	Escribir "ingresa el numero del que quieres la tabla de multiplicar"
+	Leer num
+	Para i<-1 Hasta 10 Con Paso 1  Hacer
+		resultado<-i*num
+		Escribir num," x ",i," = ", resultado
+	Fin Para
+	    EJERCICIO 3
+	    definir nombre como caracter
+	definir vecez Como Entero
+	Escribir "ingresa tu nombre"
+	leer nombre
+	Escribir "¿cuantas vecez quieres que se repita tu nombre?"
+	leer vecez
+	Para i<-1 Hasta vecez Con Paso 1  Hacer
+		Escribir i," ", nombre
+	Fin Para 
+	    EJERCICIO 4
 		definir nombre Como Caracter
 		definir calificacion Como Real
 		definir promedio como real
