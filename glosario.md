@@ -54,7 +54,8 @@ lenguajes compilados: no se ejecutan al momneto lo compila, revisa genera un arc
 
 leguajes interpretados: se le dan instrucciones y lo va ejecutando al momento 
 
-condicionales: son simple,compuesto y añadida siempre nse de bemn de cumplir
+condicionales: son simple,compuesto y añadida siempre se deben de cumplir
 
 identacion espacios que hay de izquierda a derecha indican donde pertenesen
 
+crashar: error
